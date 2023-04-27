@@ -1,0 +1,564 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalAthlete | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+
+            <a href="./index.html">
+                <h2 class="logo">LocalAthlete</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Cycling News</span>
+                    </h3>
+                    <span class="headline-description">Nuremberg cycling routes</span>
+                </div>
+
+                <a href="./mainpost1.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Cycling Races</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Fancy doing a cycling race in Germany?</h3>
+                    </div>
+                </a>
+
+                <a href="./mainpost2.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                    <span class="article-category">Cycling in Bavaria</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>17th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Rothenburg ob der Tauber: Cycling Through History and Charm</h3>
+                    </div>
+                </a>
+
+                <a href="./mainpost3.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">Long routes</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>10th Feb 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Gravel Cycling Adventures: Exploring the Old Canal of Nuremberg</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured content-title">Top Articles</h3>
+
+                <a href="./mainpost4.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/quick_read/berching.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>25th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Cycling Tour to Berching!</h3>
+                    </div>
+                </a>
+
+                <a href="./mainpost5.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/older_posts/konigsee4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Salzburg to Königssee</h3>
+                    </div>
+                </a>
+
+                <a href="./bamberg.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/older_posts/bamberg.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>20th March 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">A Ride to Bamberg</h3>
+                    </div>
+                </a>
+
+                <a href="./radweg.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/quick_read/radweg1.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>20th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Cycle Highway!</h3>
+                    </div>
+                </a>
+
+                <a href="./mainpost1.html" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/featured/featured-1.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Cycling Races</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <a href="./mainpost4.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/berching.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>13th April 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 min read</span>
+                            </div>
+    
+                            <h3 class="title article-title">A Scenic One-Day Cycling Tour to Berching from Nuremberg</h3>
+                        </div>
+                    </a>
+
+                    <a href="./bamberg.html" class="article swiper-slide">
+                        <img src="./assets/images/older_posts/bamberg.JPG" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>20th March 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 min read</span>
+                            </div>
+    
+                            <h3 class="title article-title">A Ride to Bamberg</h3>
+                        </div>
+                    </a>
+
+                    <a href="./radweg.html" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/radweg1.JPG" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>20th April 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 min read</span>
+                            </div>
+    
+                            <h3 class="title article-title">Nuremberg-Prague Cycle Highway!</h3>
+                        </div>
+                    </a>
+
+                    <a href="./mainpost1.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/featured-1.JPG" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>13th April 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 min read</span>
+                            </div>
+    
+                            <h3 class="title article-title">Fancy doing a cycling race in Germany?</h3>
+                        </div>
+                    </a>
+
+                    <a href="./mainpost2.html" class="article swiper-slide">
+                        <img src="./assets/images/featured/featured-2.JPG" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>13th April 2023</span>
+                                <span class="article-data-spacer"></span>
+                                <span>7 min read</span>
+                            </div>
+    
+                            <h3 class="title article-title">Rothenburg ob der Tauber: Cycling Through History and Charm</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-button-prev swiper-contols"></div>
+                <div class="swiper-button-next swiper-contols"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="./mainpost5.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/konigsee4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">An Unforgettable Cycling Adventure from Salzburg to Königssee</h3>
+                        <p class="article-description">The majestic Königssee lake comes into view, nestled between the towering mountains. The deep blue waters of the lake are known for their crystal-clear clarity, creating a breathtaking sight that is sure to leave you in awe.</p>
+                    </div>
+                </a>
+
+                <a href="./mainpost1.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/featured/featured-1.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Fancy doing a cycling race in Germany?</h3>
+                        <p class="article-description">Cycling races in Germany.</p>
+                    </div>
+                </a>
+
+                <a href="./mainpost2.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/featured/featured-3.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>13th April 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Rothenburg ob der Tauber: Cycling Through History and Charm</h3>
+                        <p class="article-description">Rothenburg ob der Tauber is a cyclist's paradise is its compact size. The town is relatively small, making it easy to navigate on a bicycle. Its well-preserved medieval walls, which encircle the town, are not only a sight to behold but also provide a designated cycling path along the top. </p>
+                    </div>
+                </a>
+
+                <a href="./bamberg.html" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/bamberg.JPG" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>20th March 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>7 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Exploring Bavaria on Two Wheels: A Cycling Adventure from Nuremberg to Bamberg and Back</h3>
+                        <p class="article-description">This 100-kilometer (62-mile) journey takes you through picturesque countryside, charming villages, and historic towns, offering a perfect mix of nature and culture.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">
+                    See more <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+
+                <h6 class="title newsletter-title">Subscribe to LocalAthlete</h6>
+                <p class="newsletter-description">To get the latest news Subscribe to the LocalAthlete!</p>
+
+                <form action="" class="form">
+                    <input type="text" class="form-input" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">LocalAthlete</h2>
+                </a>
+                <p class="company-description">
+                    LocalAthlete is a comprehensive online resource for sports enthusiasts who want to stay up-to-date on the latest local sports news and information.
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-items">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2023 LocalAthlete. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Cycling races</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Running races</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Triathlon races</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Rowing</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Training</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Yoga</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">About</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Features</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Older Posts</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div>
+                <h6 class="title footer-title">More</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link"></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
